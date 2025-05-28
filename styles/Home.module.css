@@ -1,0 +1,59 @@
+/* styles/Home.module.css */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  min-height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #1a202c;
+  margin-bottom: 30px;
+}
+
+.addLink {
+  display: inline-block;
+  background: #3182ce;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  transition: background 0.3s ease;
+}
+
+.addLink:hover {
+  background: #2b6cb0;
+}
+
+.blogCard {
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  margin-bottom: 25px;
+  transition: transform 0.2s ease;
+}
+
+.blogCard:hover {
+  transform: translateY(-4px);
+}
+
+.blogCard h2 {
+  margin-top: 0;
+  color: #2d3748;
+}
+
+.readMore {
+  color: #3182ce;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.readMore:hover {
+  text-decoration: underline;
+}
